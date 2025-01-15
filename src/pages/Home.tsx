@@ -1,8 +1,7 @@
 import React from 'react';
 import Hero from '../components/sections/Hero';
 import Services from '../components/sections/Services';
-import Portfolio from '../components/sections/Portfolio';
-import Pricing from '../components/sections/Pricing';
+import About from '../components/sections/About';
 import Contact from '../components/sections/Contact';
 
 export default function Home() {
@@ -10,8 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <Services />
-      <Portfolio />
-      <Pricing />
+      <About />
       <Contact />
     </>
   );

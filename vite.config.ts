@@ -7,4 +7,14 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    target: 'es2015',
+  },
+  server: {
+    host: true, // Allow external access
+    port: 5173, //
+    fs: {
+      strict: false, // Allow file access
+    },
+  },
 });
